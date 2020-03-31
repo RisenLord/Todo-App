@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <title>Todo App</title>
+  <style>
+    input[type="text"]{
+      width:90%;
+    }
+    #main{
+      margin-top: 20px
+    }
+    .btn{
+      padding:5px;
+      color:#fff;
+      background-color: tomato;
+    }
+    .btn:hover{
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Todo App</h1>
+      <input type="text" placeholder="Add new todo" >
+      <button class="btn" id="AddTodo">+</button> </input>
+    </header>
+    <div id="main">
+      <ul id="list-group">
+       <!-- <li class="list-group-item">Listen to sermons <button class="btn float-right">X</button></li>
+        <li class="list-group-item">Read the bible <button class="btn float-right">X</button></li>-->
+      </ul>
+      
+    </div>
+  </div>
+
+  <script src="dom.js"></script>
+</body>
+</html>
